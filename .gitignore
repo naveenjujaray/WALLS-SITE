@@ -1,0 +1,4 @@
+.bundle
+.sass-cache
+.dist
+Gemfile.lock

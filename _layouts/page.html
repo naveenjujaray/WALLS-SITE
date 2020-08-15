@@ -1,0 +1,25 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="/main.css">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="../main.css">
+{% include head.html %}
+
+<body class="subPageBody">
+    <div class="headerBackground subPageHeaderBackground">
+        <div class="container subPageContainer">
+        {% include header.html %}
+            <article class="page markdown-body">
+                {{ content }}
+            </article>
+        </div>
+        {% include appstoreimages.html %}
+    </div>
+</body>
+
+</html>
